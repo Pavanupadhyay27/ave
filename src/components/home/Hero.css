@@ -7,6 +7,10 @@
   justify-content: center;
   color: white;
   overflow: hidden;
+  width: 100vw;
+  left: 0;
+  right: 0;
+  margin: 0;
 }
 
 .hero-video {
@@ -117,6 +121,7 @@
   bottom: 0;
   overflow: hidden;
   pointer-events: none;
+  width: 100%;
 }
 
 .hero-background-video {

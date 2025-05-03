@@ -14,13 +14,6 @@ const About = () => {
 
   return (
     <div className="about-page">
-      <div className="page-header">
-        <div className="container">
-          <h1>About ACE Storage Solution</h1>
-          <p>Learn about our story, mission, and commitment to excellence</p>
-        </div>
-      </div>
-
       <section className="section">
         <div className="container">
           <div className="about-content">

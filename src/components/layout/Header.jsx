@@ -46,11 +46,11 @@ const Header = () => {
             <FaTimes />
           </button>
           <ul className="nav-list">
-            <li><NavLink to="/" onClick={closeMenu}>Home</NavLink></li>
-            <li><NavLink to="/services" onClick={closeMenu}>Services</NavLink></li>
-            <li><NavLink to="/about" onClick={closeMenu}>About</NavLink></li>
-            <li><NavLink to="/locations" onClick={closeMenu}>Locations</NavLink></li>
-            <li><NavLink to="/pricing" onClick={closeMenu}>Pricing</NavLink></li>
+            <li><NavLink to="/dry-pallet" onClick={closeMenu}>Dry Pallet Storage</NavLink></li>
+            <li><NavLink to="/cross-docking" onClick={closeMenu}>Cross Docking</NavLink></li>
+            <li><NavLink to="/3pl-services" onClick={closeMenu}>3PL Services</NavLink></li>
+            <li><NavLink to="/office-warehouse" onClick={closeMenu}>Office & Warehouse Space</NavLink></li>
+            <li><NavLink to="/lumper-services" onClick={closeMenu}>Lumper Services</NavLink></li>
             <li><NavLink to="/contact" onClick={closeMenu} className="contact-button">Contact Us</NavLink></li>
           </ul>
         </nav>

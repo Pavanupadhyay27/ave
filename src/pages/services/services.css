@@ -1,0 +1,317 @@
+.service-page {
+  padding-top: 60px;
+}
+
+.service-page .service-hero {
+  position: relative;
+  padding: 120px 0 80px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.service-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover;
+}
+
+/* Base styles with lower specificity */
+.service-hero {
+  padding: 120px 0 80px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.service-hero h1 {
+  color: white;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.service-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.service-intro {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.service-features-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.service-features-list li {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: transform 0.2s ease;
+}
+
+.service-features-list li::before {
+  content: '→';
+  color: #FF4747;
+  font-size: 1.2rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #f1f1f1;
+  transition: all 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.feature-icon {
+  color: #FF4747;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.feature-card h3 {
+  color: #2d3436;
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+.feature-card p {
+  color: #636e72;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.service-process {
+  background: #f8f9fa;
+  padding: 2.5rem 0;
+  margin-top: 2rem;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.step {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: left;
+  position: relative;
+}
+
+.step-number {
+  background: #FF4747;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.step h3 {
+  color: #2d3436;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.step p {
+  color: #636e72;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.service-interactive {
+  margin: 2rem auto;
+  max-width: 700px;
+  padding: 0 1.5rem;
+}
+
+.quote-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.calculator-widget {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+
+.pricing-estimator {
+  margin-top: 2rem;
+}
+
+.estimator-result {
+  background: #e3f2fd;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.chat-widget {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+}
+
+.chat-button {
+  background: #FF4747;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+}
+
+.chat-button:hover {
+  transform: translateY(-3px);
+}
+
+.services-cta {
+  background: linear-gradient(135deg, #FF4747 0%, #FF6B6B 100%);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 800px;
+  margin: 4rem auto;
+  box-shadow: 0 10px 30px rgba(255, 71, 71, 0.2);
+}
+
+.services-cta h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.services-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services-cta .btn {
+  background: white;
+  color: #FF4747;
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid white;
+}
+
+.services-cta .btn:hover {
+  background: transparent;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Dry Pallet Storage */
+.dry-pallet .service-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://images.pexels.com/photos/4481259/pexels-photo-4481259.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover;
+}
+
+/* Cross Docking */
+.cross-docking .service-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover;
+}
+
+/* 3PL Services */
+div.service-page.three-pl .service-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://images.pexels.com/photos/4506225/pexels-photo-4506225.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover !important;
+}
+
+.three-pl-service .service-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://images.pexels.com/photos/4506225/pexels-photo-4506225.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover !important;
+}
+
+/* Office & Warehouse */
+div.service-page.office-warehouse .service-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://images.pexels.com/photos/236698/pexels-photo-236698.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover !important;
+}
+
+.office-warehouse-service .service-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://images.pexels.com/photos/236698/pexels-photo-236698.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover !important;
+}
+
+/* Lumper Services */
+div.service-page.lumper-services .service-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover !important;
+}
+
+.lumper-services-service .service-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover !important;
+}
+
+@media (max-width: 768px) {
+  .service-hero h1 {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .service-subtitle {
+    padding: 0 1rem;
+  }
+  
+  .service-features-list {
+    grid-template-columns: 1fr;
+  }
+}

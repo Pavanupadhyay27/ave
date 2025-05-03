@@ -66,13 +66,6 @@ const Locations = () => {
 
   return (
     <div className="locations-page">
-      <div className="page-header">
-        <div className="container">
-          <h1>Our Locations</h1>
-          <p>Find a secure storage facility near you</p>
-        </div>
-      </div>
-
       <section className="section">
         <div className="container">
           <motion.div 

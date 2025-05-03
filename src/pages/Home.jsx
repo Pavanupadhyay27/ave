@@ -1,9 +1,8 @@
 import { useEffect } from 'react'
 import Hero from '../components/home/Hero'
-import Features from '../components/home/Features'
-import Services from '../components/home/Services'
+import FeaturedSolutions from '../components/home/FeaturedSolutions'
 import Testimonials from '../components/home/Testimonials'
-import CallToAction from '../components/home/CallToAction'
+import DeliveryAnimation from '../components/home/DeliveryAnimation'
 
 const Home = () => {
   useEffect(() => {
@@ -13,10 +12,9 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <Features />
-      <Services />
+      <FeaturedSolutions />
+      <DeliveryAnimation />
       <Testimonials />
-      <CallToAction />
     </>
   )
 }

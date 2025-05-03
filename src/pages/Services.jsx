@@ -132,13 +132,6 @@ const Services = () => {
 
   return (
     <div className="services-page">
-      <div className="page-header">
-        <div className="container">
-          <h1>Our Storage Solutions</h1>
-          <p>Discover our comprehensive range of storage options designed to meet your specific needs</p>
-        </div>
-      </div>
-
       <section className="section">
         <div className="container">
           <motion.div 
